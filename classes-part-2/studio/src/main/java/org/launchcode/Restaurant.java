@@ -21,7 +21,7 @@ public class Restaurant {
 
     System.out.println("\nRemoving an item from the menu.");
     menu.removeItem(item3);
-//    menu.printMenu();
+    menu.printMenu();
 
 
 
