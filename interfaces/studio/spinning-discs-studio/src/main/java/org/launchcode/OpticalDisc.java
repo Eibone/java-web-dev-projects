@@ -1,2 +1,7 @@
-package org.launchcode;public class OpticalDisc {
+package org.launchcode;
+import java.util.HashMap;
+
+public interface OpticalDisc {
+    void spinDisc();
+    HashMap<String, Integer> readData();
 }
